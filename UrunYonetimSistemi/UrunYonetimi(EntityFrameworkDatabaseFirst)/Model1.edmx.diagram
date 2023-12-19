@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b16f2cd535d040e7b861f3bf2216aa91" Name="Diagram1">
+        <EntityTypeShape EntityType="UrunYonetimiDBModel.KategoriTb" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunYonetimiDBModel.MusterilerTb" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunYonetimiDBModel.SatislarTb" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunYonetimiDBModel.UrunlerTb" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="UrunYonetimiDBModel.FK_UrunlerTb_KategoriTb" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunYonetimiDBModel.FK_SatislarTb_MusterilerTb" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunYonetimiDBModel.FK_SatislarTb_ToTUrunlerTb" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
